@@ -1,7 +1,7 @@
 ---
 title: "Code Highlight"
-category: "Code"
-date: "2020-02-01 12:00:00 +09:00"
+category: "Friminutt"
+date: "2023-05-23 12:00:00 +09:00"
 desc: "Test Markdown Code Highlight"
 thumbnail: "./images/code-block/thumbnail.jpg"
 alt: "code block graphic"
