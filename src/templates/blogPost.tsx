@@ -4,7 +4,6 @@ import styled from "styled-components"
 
 import Layout from "Layouts/layout"
 import SEO from "Components/seo"
-import Comment from "Components/comment"
 import { rhythm } from "Styles/typography"
 import Category from "Styles/category"
 import DateTime from "Styles/dateTime"
@@ -44,9 +43,6 @@ const BlogPost: React.FC<PageProps<Queries.Query>> = ({ data }) => {
             </InnerWrapper>
           </OuterWrapper>
         </article>
-        <CommentWrap>
-          <Comment />
-        </CommentWrap>
       </main>
     </Layout>
   )
@@ -69,16 +65,6 @@ const InnerWrapper = styled.div`
     width: 87.5%;
   }
 `
-
-const CommentWrap = styled.section`
-  width: 100%;
-  padding: 0 var(--padding-sm);
-  margin: 0 auto;
-  margin-bottom: var(--sizing-xl);
-
-  @media (max-width: ${({ theme }) => theme.device.sm}) {
-    width: auto;
-  }
 `
 
 const PostCategory = styled(Category)`
